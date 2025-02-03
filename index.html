@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita de Bolinho de Chuva</title>
+    <!-- Link para o CSS Externo -->      
+    <link rel="stylesheet" href="style.css">
+    <script> src = "interacao.js"></script>
+    
+</head>
+<body id = "backgorund">
+    <div class = "header" >
+        <h1 id="titulo">Receita de Bolinho de Chuva</h1>
+        <button type="button" onclick='document.getElementById("titulo").innerHTML= "Melho bolinho!!!"'>Mudar titulo</button>
+    <div>
+    <button type="button" onclick="document.getElementById('exemplo').style.display='none'">Esconder!</button>
+    <button type="button" onclick="document.getElementById('exemplo').style.display='block'">Mostrar!</button>
+    <button onclick="document.getElementById('imag2').src='https://guiadacozinha.com.br/wp-content/uploads/2018/05/bolinho-de-chuva-recheado-com-chocolate.jpg'"> mudar a imagem</button>
+    <div id="exemplo" style="display:block">
+        <div class="divc">
+            <img id ="imag2" width = "80%" height = "80%" src ="https://brastempexperience.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/04/receita-bolinho-chuva-header.jpg" alt="">
+        </div>
+      </div> 
+    <br>
+
+    <div class="row">
+        <div class="col-3">
+           <h2>Ingredientes:</h2>
+           <ul>
+               <li>2 ovos;</li>
+               <li>1 xícara (chá) de leite;</li>
+               <li>1 colher (sopa) de fermento em pó;</li>
+               <li>1 colher (sopa) de canela para polvilhar;</li>
+               <li>1 xícara de açúcar;</li>
+               <li>2 e 1/2 xícaras de farinha de trigo;</li>
+               <li>3 colheres (sopa) de açúcar para polvilhar;</li>
+               <li>1 litro de óleo para fritar.</li>
+           </ul>
+       </div>
+
+    <div class="col-9 div2">
+        <h2>Materiais:</h2>
+            <ul>
+                <li>Bowl;</li>
+                <li>Fouet;</li>
+                <li>Jarra Mediadora;</li>
+                <li>Escumadeira;</li>
+                <li>Frigideira funda.</li>
+            </ul>
+    </div>
+    
+    <div class="col-12">
+        <h2>Modo de preparo:</h2>
+        <ol>
+            <li>Misture todos os ingredientes até obter uma massa cremosa e homogênea.</li>
+            <li>Deixe aquecer uma panela com bastante óleo para que os bolinhos possam boiar.</li>
+            <li>Quando o óleo estiver bem quente (180º C), com uma colher, comece a colocar pequenas quantidades de massa e frite até que dourem por inteiro.</li>
+            <li>Coloque os bolinhos sobre papel absorvente e depois passe-os no açúcar com canela.</li>
+        </ol>
+    </div>
+
+    <div class="col-12">
+        <a href="https://youtu.be/bAaJ4XpMmtU?si=IetRgEED72wGR6F9"> Tutorial de como fazer bolinho de chuva rápido e fácil</a>
+        <p>Para mais informações e outras receitas saborosas, acesse: <a href="https://www.tudogostoso.com.br/receita/76049-bolinho-de-chuva.html" target="_blank">Site de onde a receita foi tirada</a></p>
+    </div>
+    <button type="button" onclick="document.getElementById('backgorund').style.backgroundColor='lightblue'">Clica aqui para mudar a cor do fundo!</button>
+    
+
+</body>
+</html>
